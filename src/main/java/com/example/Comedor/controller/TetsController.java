@@ -12,4 +12,9 @@ public class TetsController {
     public String test() {
         return "Hola mundo";
     }
+
+    @GetMapping("/testPrueba")
+    public String testPrueba() {
+        return "Hola desde testPrueba";
+    }
 }
